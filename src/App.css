@@ -1,0 +1,250 @@
+/*Main Page Css*/
+
+#nav-div
+{
+    
+    width: 90%; height: 50px;
+    margin: 0 auto;
+    border-bottom:2px solid #BFA270;
+    padding-bottom: 1px;
+}
+#headlogo
+    {margin: 10px;height:80%;}
+#lgo-home
+    {border-radius: 
+    50%;margin: 20px 0;
+    position: relative;
+    z-index: 1;
+    left: 150px;
+    }
+#texthead
+        {float: right;
+        background-color: #5F8668;
+        margin:0 70px; width: 68%;
+        height: 20%;
+        position: absolute; 
+        z-index: 0; bottom:65%;left: 22%;}
+
+#h1-home
+         {color:#BFA270;font-size:35px; 
+         text-align: right;direction: rtl;
+        margin: 20% 10%; padding: 2%;
+        
+       }
+
+#circl
+    {width:12%; height: 55px; 
+    background-color: #5F8668;
+    border-radius:100px;
+    left:48%;position: absolute;}
+
+#strt{color: white; margin: 0 auto;position: absolute;left: 15%; top: 28%;}
+#strt:hover{cursor: pointer;}       
+.p-cls
+         {color: white; font-size: 16px; font-weight: bold;padding: 4px;}
+ .lk-cls
+        {float: right; text-decoration: none;}
+ .p-cls2
+        {margin-left: 200px;}
+ #p1-home
+        {margin-right: 200px;}
+ #mainconent
+    {width: 90%; height: 30%;
+    margin: 2% auto;
+    
+    
+   }
+
+#enter-btn{
+    
+   margin: 5% auto;
+   
+color:#BFA270; position: absolute;left:53%;
+font-size:25px ;font-weight: bold;
+}
+#enter-btn:hover{cursor: pointer; text-decoration: underline;}
+#login-btn:hover{cursor: pointer;text-decoration: underline;}
+#login-btn{
+    
+        
+         padding-bottom: 5%;
+         margin: 10% auto;
+        color:#BFA270; font-size:25px ;
+        font-weight: bold;
+        position: absolute;left: 52%;
+   }
+   .hr-end#hr-entr
+    {width: 8%; height: 5px; 
+    background-color:#5F8668;
+    
+    border-radius: 100px;bottom: 2%;
+    position: absolute; left: 46%;}      
+.hr-end
+    {width: 8%; height: 5px; 
+    background-color:#5F8668;
+    
+    border-radius: 100px;bottom: 10%;
+    position: absolute; left: 46%;}
+
+    
+    /* ********************************************************** modal Css ************************************************************ */
+.modal{display: none;
+    background-color: rgba(256, 0256, 256, 0.3);
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;}
+.modal-content
+{
+ 
+    margin: 15% auto;
+    padding: 20px;
+    background-color: #fcebcd;
+    width: 80%;
+    
+}
+.close
+{
+    
+    float: right;
+    font-size: 28px;
+
+}
+.close:hover,.close:focus
+{
+   text-decoration: none;
+   cursor: pointer;
+    font-weight: bold;
+    
+}
+ 
+.closee
+{
+    float: right;
+    font-size: 28px;
+
+}
+.closee:hover,.closee:focus
+{
+   text-decoration: none;
+   cursor: pointer;
+    font-weight: bold;
+    
+}
+/*/////////////////////////////////////////margin class for cancle btn//////////////////////////////////////////////////*/
+.mrgn{margin-top: 2px;}
+/* *********************************************************Comment Page Css ************************************************************/
+
+#navigator
+{
+    margin: 0 auto; width: 100%;height: 20%;border-top: 1px solid #BFA270;
+}
+#lgo
+{
+    border-radius: 50%;
+    margin: 18px -100;
+  position: relative; 
+  z-index: 1; left: 150px; 
+}
+#tlte
+{
+    width: 100%; height: 100%; background-color:#5F8668;
+}
+#div-form
+{
+    margin: 0 auto; width: 80%;padding: 20px;
+}
+#hr-comment
+{
+    margin: 0 auto; width: 80%;border: 1px solid white;
+}
+#h1-comment
+{
+    color: white;margin: 0 auto;text-align: center;padding: 100px;
+}
+#inpt-text
+{ 
+ width: 300px;
+}
+.Pcomment
+{
+    text-decoration: none;
+    float: right;margin-left: 300px;color:#4E4537; font-size: 16px; margin-top:50px ;
+}
+#ppagehome
+{
+    margin-right: 100px;
+}
+.itm-form
+{margin: 0 auto ; margin-top: 12px;}
+form
+{display:grid; justify-self: center;width: 70%;}
+button
+{width: 200px;}
+.frmstyl{
+    opacity: 0.8;
+    left: 40%; position: relative;
+    border: 1px solid #5F8668;
+    border-radius: 100px;
+   background-color: transparent;
+   width: 30%;
+   
+    }
+    .frmstyl::placeholder{
+      color: #5F8668;
+      text-align: right;
+      font-weight: bold;
+       
+        }
+        #enterSign{top:-25%}
+        .frmstyl:hover{background-color:#5F8668 ; color: white;}
+       
+    .btns{background-color:#5F8668 ; color: white; height: 40px; width: 15%;
+    margin: 5% 8%;}
+    .btns:hover{background-color: white;color: #5F8668;}
+    .frmsweb{ width: 100%;
+        position: relative;
+        top: 100px; 
+    background-color: white;}
+    .baners{ color: #BFA270;
+        margin: 0 auto;
+        left: 5%;
+        position: relative;
+        margin-bottom: 5%;
+    }
+    #cncl{
+        background-color:#5F8668 ; color: white; height: 40px; width: 15%;
+       margin:2% 8%;bottom: 5%;position: absolute;
+    }
+    #cncl:hover{background-color: rgb(250, 41, 83); color: white;border-color: rgb(250, 41, 83);}
+/******************************************* contact us Css***************************************************************/
+#container-contact{margin-top: 30px ;}
+#linee{background-color: white ; margin: 0 auto; width: 100%;height: 20%;border-top: 1px solid #BFA270;}
+#bggreen{width: 100%; height: 50%; background-color: #5F8668;}
+#lgoContct{border-radius: 50%;margin: 18px -100;
+    position: relative; z-index: 1; left: 150px;}
+#rfrnc{margin: 10px auto; width: 100%;height: auto; border-bottom: 1px solid #BFA270;}
+#cntct-h1{text-align: center; padding: 70px; color: white;}
+#cntct-h3{text-align: center; color: white;}
+.imgsContct{width: 100px; height:100px;margin:20px 150px;}
+.imgsContct:hover{opacity: 0.5; border:1px solid #BFA270;border-radius: 20%;}
+.imgsContct1{width: 100px; height:100px;margin:20px 100px ;}
+.imgsContct1:hover{opacity: 0.5; border:1px solid #BFA270;border-radius: 20%; }
+.links-cntct{float: right;margin-left: 300px;color:#4E4537; font-size: 16px;margin-top:50px ;text-decoration: none;}
+#id-mainhome{margin-right: 100px;}
+/* *****************************************************************club Css*******************************************************/
+#lin-club{background-color: white ; margin: 0 auto; width: 100%;height: 20%;border-top: 1px solid #BFA270;}
+#lgo-club{ border-radius: 50%;margin: 18px -100;
+    position: relative; z-index: 1; left: 150px; }
+ #divGreen{width: 100%; height: 50%; background-color: #5F8668;}
+ #h1club{color: white;margin: 0 auto;text-align: center;padding: 100px;}
+ #hrclub{ margin: 0 auto; width: 80%;border: 1px solid white;}
+ .pixesd{width: 300px; height: 298px;background-color: #BFA270;;float: right; margin:-100px 80px;border:2px solid white}
+ .pixes{width: 100%; height: 100%; opacity: 70%;}
+ .h3text{margin: 0 auto;text-align: center;padding: 100px;position: absolute;top: 380PX;color:#BFA270;}
+
+
+

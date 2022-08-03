@@ -1,0 +1,22 @@
+#circlpic{width:90px; height: 90px; 
+   border: 1px solid white;
+   size: 10px;
+   padding: 3%;
+    border-radius:70px;
+    size: 10px;
+    object-fit: cover;
+    position: relative;
+align-items: center;
+margin:18px;}
+#welcomtext{
+    width:500px;float:right;margin:20px 10px;
+}
+   
+/* style={{width:'13%', height: '70px',
+    backgroundColor: '#5F8668',
+    borderRadius:'100px',
+    margin:' 0 auto',position: 'relative'}}*/
+    #trkh{margin:18px;}
+    #leftside{border-bottom: 5px solid white;
+        border-radius: 18px;
+        margin: 10px;}
